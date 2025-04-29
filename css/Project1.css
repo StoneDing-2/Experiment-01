@@ -12,6 +12,20 @@ The Formula:
         property = background-color
         value = any CSS color you want! 
 */
+.gradient-bg {
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    padding: 5vw;
+    margin-bottom: 3vh;
+    font-size: 2vw;
+}
+
+@font-face {
+    font-family: 'Santa-Snowy';
+    src: url('Santa\ Snowy.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     padding: 20px;
     background-color: #7eb4e3;
@@ -23,9 +37,16 @@ body {
 .header-section {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 1vw;
     color: rgb(41, 21, 84);
 }
 
+
+.highlight {
+    background-color: #fffacd;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
 
 .Bleach{
     text-align: center;
@@ -38,15 +59,44 @@ body {
     }a {
     color: #b45634; 
 }
-
-.highlight {
-    background-color: #fffacd;
-    padding: 2px 5px;
-    border-radius: 3px;
 }
 
+img{
+    display:block;
+
 }
 
+.tung{
+    font-family:'Santa-snowy', cursive;
+    font-size: 1vw;
+}
+
+.gianttext{
+    font-family:'Santa-snowy', cursive;
+    font-size: 10vw;
+    
+}
+
+.Cattext{
+    font-size: 12px;
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 10rem;
+    z-index: 100;
+}
+
+.absolute-note {
+    position: absolute;
+    bottom: 20px;
+    left: 0%;
+    font-size: 10rem;
+    transform: rotate(-180deg);
+}
 
 .Onepunchman {
     font-size: larger;
